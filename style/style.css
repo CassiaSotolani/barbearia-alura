@@ -1,0 +1,27 @@
+#banner {
+    width: 100%;
+}
+
+.centralizar-texto {
+    text-align: center;
+}
+
+.fundo-cinza {
+    background-color: #cccccc;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #ff0000;
+}
+
+.espaco {
+    padding: 40px;
+}
+
+#banner-beneficios {
+    width: 50%;
+}
