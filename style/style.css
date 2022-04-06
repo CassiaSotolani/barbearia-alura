@@ -1,6 +1,6 @@
 #banner {
-    width: 100%;
     margin-bottom: -4px;
+    width: 100%;
 }
 
 .centralizar-texto {
@@ -12,9 +12,9 @@
 }
 
 .caixa-cinza {
+    margin: 0 auto;
     position: relative;
     width: 940px;
-    margin: 0 auto;
 }
 
 .espaco {
@@ -22,7 +22,7 @@
 }
 
 .padding-top-bottom {
-    padding: 100px 80px;
+    padding: 80px 80px;
 }
 
 #missao {
@@ -41,4 +41,8 @@ em strong {
     display: flex;
     justify-content: space-evenly;
     padding: 60px 0;
+}
+
+.font {
+    font-size: 20px;
 }

@@ -1,7 +1,7 @@
 * {
+    border: 0;
     margin: 0;
     padding: 0;
-    border: 0;
     vertical-align: baseline;
 }
 
@@ -11,15 +11,15 @@ header {
 }
 
 .caixa {
+    margin: 0 auto;
     position: relative;
     width: 940px;
-    margin: 0 auto;
 }
 
 nav {
     position: absolute;
-    top: 110px;
     right: 0;
+    top: 110px;
 }
 
 nav li {
@@ -28,11 +28,11 @@ nav li {
 }
 
 nav a {
-    text-transform: uppercase;
     color: #000000;
-    font-weight: bold;
     font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav a:hover {
@@ -41,21 +41,21 @@ nav a:hover {
 }
 
 .produtos {
-    width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    width: 940px;
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
 }
 
 .produtos li:hover {
@@ -82,9 +82,9 @@ nav a:hover {
 }
 
 footer {
-    text-align: center;
     background-image: url(../img/bg.jpg);
     padding: 40px 0;
+    text-align: center;
 }
 
 .copyright {
