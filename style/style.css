@@ -1,5 +1,6 @@
 #banner {
     width: 100%;
+    margin-bottom: -4px;
 }
 
 .centralizar-texto {
@@ -10,6 +11,20 @@
     background-color: #cccccc;
 }
 
+.caixa-cinza {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.espaco {
+    padding-bottom: 30px;
+}
+
+.padding-top-bottom {
+    padding: 100px 80px;
+}
+
 #missao {
     font-size: 20px;
 }
@@ -18,10 +33,12 @@ em strong {
     color: #ff0000;
 }
 
-.espaco {
-    padding: 40px;
+.banner-beneficios {
+    width: 400px;
 }
 
-#banner-beneficios {
-    width: 50%;
+.div-principal {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
 }
