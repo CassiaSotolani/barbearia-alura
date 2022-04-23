@@ -94,11 +94,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
 form {
 	margin: 40px 0;
 }
@@ -152,6 +147,7 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
 /* css da página inicial */
 .banner {
     width: 100%;
@@ -162,6 +158,13 @@ td, th {
     font-size: 2em;
     margin-bottom: 1em;
     clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -184,6 +187,12 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -193,6 +202,7 @@ td, th {
 
 .beneficios {
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios {
